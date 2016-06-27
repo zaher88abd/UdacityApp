@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.abd.zaher88.firstudacityapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="btn1"
+        android:text="My Nanodegree Apps!"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#2D3D4A"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="btn2"
+        android:text="POPULAR MOVIES"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#2D3D4A"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="STACK HAWK"
+        android:textColor="#fff"
+        android:onClick="btn3"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#2D3D4A"
+        android:onClick="btn4"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="BUILD IT BIGGERS"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#2D3D4A"
+        android:onClick="btn5"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="MAKE YOUR APP MATERIAL"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#2D3D4A"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="GO UBIQUITOUS"
+        android:textColor="#fff"
+        android:onClick="btn6"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#2D3D4A"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="CAPSTONE"
+        android:textColor="#fff"
+        android:onClick="btn7"
+        android:textSize="15sp" />
+
+</LinearLayout>
